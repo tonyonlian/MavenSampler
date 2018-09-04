@@ -2,8 +2,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.readlearncode</groupId>
-    <artifactId>maven-sampler</artifactId>
+    <groupId>com.tunyl</groupId>
+    <artifactId>maven-repo-sampler</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
@@ -57,7 +57,7 @@
                 <configuration>
                     <!-- Github settings -->
                     <!--<server>github</server>-->
-                    <repositoryName>MavenSampler</repositoryName>
+                    <repositoryName>maven-repo</repositoryName>
                     <repositoryOwner>tonyonlian</repositoryOwner>
                     <branch>refs/heads/dependency</branch>
                     <message>Artifacts for ${project.name}/${project.artifactId}/${project.version}</message>
